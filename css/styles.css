@@ -38,11 +38,15 @@ th{
 input{
     width: 15%;
 }
-#blockInputs, #blockBtn{
+.inputs-block, .btn-block{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 20px 0;
+}
+
+.btn-dao input[type='button']{
+    background-color: darkred;
 }
 input[type='button']{
     width: 20%;
